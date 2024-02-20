@@ -16,12 +16,12 @@ jobs:
                         ${{ secrets.MPDUDE_TEST_1_DEPLOY_KEY }}
                         ${{ secrets.MPDUDE_TEST_2_DEPLOY_KEY }}
             -   run: |
-                    git clone https://github.com/mpdude/test-1.git test-1-http
-                    git clone git@github.com:mpdude/test-1.git test-1-git
-                    git clone ssh://git@github.com/mpdude/test-1.git test-1-git-ssh
-                    git clone https://github.com/mpdude/test-2.git test-2-http
-                    git clone git@github.com:mpdude/test-2.git test-2-git
-                    git clone ssh://git@github.com/mpdude/test-2.git test-2-git-ssh
+                    git clone https://github.com/tuanngocptn/ssh-agent-test-1.git test-1-http
+                    git clone git@github.com:tuanngocptn/ssh-agent-test-1.git test-1-git
+                    git clone ssh://git@github.com/tuanngocptn/ssh-agent-test-1.git test-1-git-ssh
+                    git clone https://github.com/tuanngocptn/ssh-agent-test-2.git test-2-http
+                    git clone git@github.com:tuanngocptn/ssh-agent-test-2.git test-2-git
+                    git clone ssh://git@github.com/tuanngocptn/ssh-agent-test-2.git test-2-git-ssh
 
     docker_demo:
         runs-on: ubuntu-latest
@@ -37,10 +37,10 @@ jobs:
                         ${{ secrets.MPDUDE_TEST_1_DEPLOY_KEY }}
                         ${{ secrets.MPDUDE_TEST_2_DEPLOY_KEY }}
             -   run: |
-                    git clone https://github.com/mpdude/test-1.git test-1-http
-                    git clone git@github.com:mpdude/test-1.git test-1-git
-                    git clone ssh://git@github.com/mpdude/test-1.git test-1-git-ssh
-                    git clone https://github.com/mpdude/test-2.git test-2-http
-                    git clone git@github.com:mpdude/test-2.git test-2-git
-                    git clone ssh://git@github.com/mpdude/test-2.git test-2-git-ssh
+                    git clone https://github.com/tuanngocptn/ssh-agent-test-1.git test-1-http
+                    git clone git@github.com:tuanngocptn/ssh-agent-test-1.git test-1-git
+                    git clone ssh://git@github.com/tuanngocptn/ssh-agent-test-1.git test-1-git-ssh
+                    git clone https://github.com/tuanngocptn/ssh-agent-test-2.git test-2-http
+                    git clone git@github.com:tuanngocptn/ssh-agent-test-2.git test-2-git
+                    git clone ssh://git@github.com/tuanngocptn/ssh-agent-test-2.git test-2-git-ssh
 
